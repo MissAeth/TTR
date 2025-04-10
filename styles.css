@@ -1389,3 +1389,29 @@ footer {
             0 0 85px var(--mystic-pink);
     }
 }
+
+/* Conteneur des boutons */
+.footer-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 15px; /* Ajuste selon l'espacement que tu souhaites */
+}
+
+/* Style des boutons */
+.footer-button {
+    padding: 10px 20px;
+    background-color: #007BFF; /* Ajuste cette couleur selon ta palette */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    font-size: 16px; /* Ajuste la taille du texte si nécessaire */
+    text-align: center;
+}
+
+/* Effet au survol des boutons */
+.footer-button:hover {
+    background-color: #0056b3; /* Change cette couleur selon le thème */
+}
