@@ -1526,3 +1526,37 @@ footer {
 .linktree-button i {
     margin-right: 8px;
 }
+
+.hero-tipeee {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.tipeee-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 20px;
+    background: linear-gradient(45deg, #ff4f4f, #ff7676);
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.tipeee-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 15px rgba(255, 79, 79, 0.5);
+}
+
+.tipeee-logo {
+    height: 20px;
+    width: auto;
+    vertical-align: middle;
+    transition: transform 0.3s ease;
+}
+
+.tipeee-logo:hover {
+    transform: translateY(-2px);
+}
